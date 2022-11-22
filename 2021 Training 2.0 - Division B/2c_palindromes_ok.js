@@ -24,12 +24,3 @@ function solution(string) {
 
   return count;
 }
-
-const test1 = solution('a');
-console.log(test1, test1 === 0);
-
-const test2 = solution('ab');
-console.log(test2, test2 === 1);
-
-const test3 = solution('cognitive');
-console.log(test3, test3 === 4);

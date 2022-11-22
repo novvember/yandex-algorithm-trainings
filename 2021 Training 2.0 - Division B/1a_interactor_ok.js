@@ -37,21 +37,3 @@ function solution([res, i, c]) {
       return i;
   }
 }
-
-const test1 = solution([0, 0, 0]);
-console.log(test1, test1 === 0);
-
-const test2 = solution([-1, 0, 1]);
-console.log(test2, test2 === 3);
-
-const test3 = solution([42, 1, 6]);
-console.log(test3, test3 === 6);
-
-const test4 = solution([44, 7, 4]);
-console.log(test4, test4 === 1);
-
-const test5 = solution([1, 4, 0]);
-console.log(test5, test5 === 3);
-
-const test6 = solution([-3, 2, 4]);
-console.log(test6, test6 === 2);

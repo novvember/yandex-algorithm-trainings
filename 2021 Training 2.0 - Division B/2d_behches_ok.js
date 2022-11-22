@@ -39,15 +39,3 @@ function solution([length, blocks]) {
 
   return [block1, block2].join(' ');
 }
-
-const test1 = solution([5, [0, 2]]);
-console.log(test1, test1 === '2');
-
-const test2 = solution([13, [1, 4, 8, 11]]);
-console.log(test2, test2 === '4 8');
-
-const test3 = solution([14, [1, 6, 8, 11, 12, 13]]);
-console.log(test3, test3 === '6 8');
-
-const test4 = solution([14, [1, 2, 13]]);
-console.log(test4, test4 === '2 13');

@@ -22,9 +22,3 @@ function parseInput(input) {
 function solution(numbers) {
   return numbers[Math.floor(numbers.length / 2)];
 }
-
-const test1 = solution([1, 2, 3, 4]);
-console.log(test1, test1 === 3);
-
-const test2 = solution([-1, 0, 1]);
-console.log(test2, test2 === 0);

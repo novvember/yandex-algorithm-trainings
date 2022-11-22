@@ -1,17 +1,17 @@
-// const readline = require('readline').createInterface(
-//   process.stdin,
-//   process.stdout,
-// );
+const readline = require('readline').createInterface(
+  process.stdin,
+  process.stdout,
+);
 
-// readline.on('line', (line) => {
-//   const result = solution(parseInput(line));
-//   console.log(result);
-//   process.exit(0);
-// });
+readline.on('line', (line) => {
+  const result = solution(parseInput(line));
+  console.log(result);
+  process.exit(0);
+});
 
-// function parseInput(input) {
-//   return input.split(' ').map(Number);
-// }
+function parseInput(input) {
+  return input.split(' ').map(Number);
+}
 
 function solution(houses) {
   const distances = new Array(houses.length).fill(0);
@@ -37,15 +37,3 @@ function solution(houses) {
 
   return Math.max(...distances);
 }
-
-// const test1 = solution([2, 0, 1, 1, 0, 1, 0, 2, 1, 2]);
-// console.log(test1, test1 === 3);
-
-// const test2 = solution([2, 0, 1, 1, 0, 1, 0, 2, 1, 2, 1]);
-// console.log(test2, test2 === 3);
-
-// const test3 = solution([2, 0, 1, 1, 0, 1, 0, 1, 1, 1]);
-// console.log(test3, test3 === 9);
-
-const test4 = solution([1, 0, 1, 1, 0, 1, 0, 1, 1, 2]);
-console.log(test4, test4 === 9);

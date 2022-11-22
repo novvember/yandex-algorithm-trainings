@@ -25,6 +25,3 @@ function solution(folders) {
   const max = sorted[sorted.length - 1];
   return sorted.reduce((sum, value) => sum + value, 0) - max;
 }
-
-const test1 = solution([2, 1]);
-console.log(test1, test1 === 1);

@@ -32,15 +32,3 @@ function solution([d, x, y]) {
   ].map((coords) => getDistanse(coords, [x, y]));
   return distanses.indexOf(Math.min(...distanses)) + 1;
 }
-
-const test1 = solution([5, 1, 1]);
-console.log(test1, test1 === 0);
-
-const test2 = solution([3, -1, -1]);
-console.log(test2, test2 === 1);
-
-const test3 = solution([4, 4, 4]);
-console.log(test3, test3 === 2);
-
-const test4 = solution([4, 2, 2]);
-console.log(test4, test4 === 0);
