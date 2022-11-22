@@ -81,7 +81,7 @@
 
 - [x] Домашнее задание 7: [Яндекс.Контест](https://contest.yandex.ru/contest/29396)
 
-- [ ] Домашнее задание 8: [Яндекс.Контест](https://contest.yandex.ru/contest/29403)
+- [x] Домашнее задание 8: [Яндекс.Контест](https://contest.yandex.ru/contest/29403)
 
   - [ ] Разбор заданий 7 и 8: [Youtube](https://youtu.be/r5mRCMLY_L4)
 
