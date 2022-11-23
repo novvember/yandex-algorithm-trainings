@@ -83,7 +83,7 @@
 
 - [x] Домашнее задание 8: [Яндекс.Контест](https://contest.yandex.ru/contest/29403)
 
-  - [ ] Разбор заданий 7 и 8: [Youtube](https://youtu.be/r5mRCMLY_L4)
+  - [x] Разбор заданий 7 и 8: [Youtube](https://youtu.be/r5mRCMLY_L4)
 
 ## Тренировки по алгоритмам 2.0 (дивизион A)
 
