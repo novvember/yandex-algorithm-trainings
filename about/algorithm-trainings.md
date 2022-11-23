@@ -89,14 +89,55 @@
 
 Повышенный уровень сложности. Ориентированный на олимпиады и спортивное программирование.
 
-- [ ] Домашнее задание 1 - [Яндекс.Контест](https://contest.yandex.ru/contest/28724/enter/)
-- [ ] Домашнее задание 2 - [Яндекс.Контест](https://contest.yandex.ru/contest/28736/enter/)
-- [ ] Разбор заданий 1 и 2 - [Youtube](https://www.youtube.com/watch?v=SP_zryTfMIc)
-- ...
+- [ ] Домашнее задание 1: [Яндекс.Контест](https://contest.yandex.ru/contest/28724)
+
+- [ ] Домашнее задание 2: [Яндекс.Контест](https://contest.yandex.ru/contest/28736)
+
+  - [ ] Разбор заданий 1 и 2: [Youtube](https://youtu.be/SP_zryTfMIc)
+
+- [ ] Домашнее задание 3: [Яндекс.Контест](https://contest.yandex.ru/contest/28963)
+
+- [ ] Домашнее задание 4: [Яндекс.Контест](https://contest.yandex.ru/contest/28969)
+
+  - [ ] Разбор заданий 3 и 4: [Youtube](https://youtu.be/mjdu8abcNfc)
+
+- [ ] Домашнее задание 5: [Яндекс.Контест](https://contest.yandex.ru/contest/29072)
+
+- [ ] Домашнее задание 6: [Яндекс.Контест](https://contest.yandex.ru/contest/29189)
+
+  - [ ] Разбор заданий 5 и 6: [Youtube](https://youtu.be/zU12H9x9MNg)
+
+- [ ] Домашнее задание 7: [Яндекс.Контест](https://contest.yandex.ru/contest/29401)
+
+- [ ] Домашнее задание 8: [Яндекс.Контест](https://contest.yandex.ru/contest/29405)
+
+  - [ ] Разбор заданий 7 и 8: [Youtube](https://youtu.be/4zPoDYvcT6U)
 
 ## Тренировки по алгоритмам 1.0
 
-...
+- [ ] Домашнее задание 1: [Яндекс.Контест](https://contest.yandex.ru/contest/27393/enter/)
+
+- [ ] Домашнее задание 2: [Яндекс.Контест](https://contest.yandex.ru/contest/27472/enter/)
+
+  - [ ] Разбор заданий 1 и 2: [Youtube](https://youtu.be/mdJdB7On4AM)
+
+* [ ] Домашнее задание 3: [Яндекс.Контест](https://contest.yandex.ru/contest/27663/enter/)
+
+* [ ] Домашнее задание 4: [Яндекс.Контест](https://contest.yandex.ru/contest/27665/enter/)
+
+  - [ ] Разбор заданий 3 и 4: [Youtube](https://youtu.be/J2C6rDqe8mQ)
+
+- [ ] Домашнее задание 5: [Яндекс.Контест](https://contest.yandex.ru/contest/27794/enter/)
+
+- [ ] Домашнее задание 6: [Яндекс.Контест](https://contest.yandex.ru/contest/27844/enter/)
+
+  - [ ] Разбор заданий 5 и 6: [Youtube](https://youtu.be/fqsuy5rwZhk)
+
+* [ ] Домашнее задание 7: [Яндекс.Контест](https://contest.yandex.ru/contest/27883/enter/)
+
+* [ ] Домашнее задание 8: [Яндекс.Контест](https://contest.yandex.ru/contest/28069/enter/)
+
+  - [ ] Разбор заданий 7 и 8: [Youtube](https://youtu.be/5lfkBD4dnGM)
 
 ## Дополнительные ссылки к тренировкам
 
