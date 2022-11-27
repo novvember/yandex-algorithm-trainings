@@ -40,8 +40,9 @@ function getNumberOfUpgoingPaths(tree, x) {
       const newSums = new Set([x]);
       [...sums].forEach((sum) => {
         const newSum = sum - node.weight;
-        if (newSum < x) newSums.add(newSum);
+        newSums.add(newSum);
       });
+      newSums.add(x);
 
       node.children.forEach((child) => stack.push([children[child], newSums]));
     }
@@ -49,8 +50,6 @@ function getNumberOfUpgoingPaths(tree, x) {
 
   return count;
 }
-
-function countSums(node, sumsToFind) {}
 
 const _readline = require('readline').createInterface(
   process.stdin,
