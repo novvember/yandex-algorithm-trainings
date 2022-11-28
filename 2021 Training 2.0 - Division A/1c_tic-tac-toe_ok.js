@@ -1,23 +1,21 @@
-const readline = require('readline').createInterface(
+const _readline = require('readline').createInterface(
   process.stdin,
   process.stdout,
 );
 
-const input = [];
+const lines = [];
 
-readline
+_readline
   .on('line', (line) => {
-    input.push(line);
+    lines.push(line);
   })
   .on('close', () => {
-    const result = solution(parseInput(input));
-    console.log(result);
-    process.exit(0);
+    const field = lines
+      .slice(0, 3)
+      .map((line) => line.trim().split(/\s+/g).map(Number));
+    const answer = solution(field);
+    console.log(answer);
   });
-
-function parseInput(input) {
-  return input.map((row) => row.split(' ').map(Number));
-}
 
 function solution(field) {
   function countCells(field) {
@@ -65,11 +63,20 @@ function solution(field) {
   const count = countCells(field);
   const wins = checkWins(field);
 
-  if (count[1] - count[2] !== 1 && count[1] - count[2] !== 0) return 'NO';
-  if (wins[1] + wins[2] > 1) return 'NO';
+  if (wins[1] === 2 && wins[2] === 0 && count[0] === 0) return 'YES';
 
-  if (wins[1] && count[1] - count[2] !== 1) return 'NO';
-  if (wins[2] && count[1] - count[2] !== 0) return 'NO';
+  if (!(wins[1] + wins[2] === 1 || wins[1] + wins[2] === 0)) return 'NO';
+
+  if (
+    wins[1] === 0 &&
+    wins[2] === 0 &&
+    !(count[1] - count[2] === 0 || count[1] - count[2] === 1)
+  )
+    return 'NO';
+
+  if (wins[1] && !(count[1] - count[2] === 1)) return 'NO';
+
+  if (wins[2] && !(count[1] - count[2] === 0)) return 'NO';
 
   return 'YES';
 }
