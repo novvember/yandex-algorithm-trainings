@@ -89,11 +89,11 @@
 
 Повышенный уровень сложности. Ориентированный на олимпиады и спортивное программирование.
 
-- [ ] Домашнее задание 1: [Яндекс.Контест](https://contest.yandex.ru/contest/28724)
+- [x] Домашнее задание 1: [Яндекс.Контест](https://contest.yandex.ru/contest/28724)
 
-- [ ] Домашнее задание 2: [Яндекс.Контест](https://contest.yandex.ru/contest/28736)
+- [x] Домашнее задание 2: [Яндекс.Контест](https://contest.yandex.ru/contest/28736)
 
-  - [ ] Разбор заданий 1 и 2: [Youtube](https://youtu.be/SP_zryTfMIc)
+  - [x] Разбор заданий 1 и 2: [Youtube](https://youtu.be/SP_zryTfMIc)
 
 - [ ] Домашнее задание 3: [Яндекс.Контест](https://contest.yandex.ru/contest/28963)
 
