@@ -27,7 +27,6 @@ _readline
       }
 
       if (winNum === Infinity) return null;
-
       return [winNum, nums.indexOf(winNum)];
     }
 
